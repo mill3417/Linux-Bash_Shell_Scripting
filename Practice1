@@ -1,0 +1,57 @@
+# Exercise 1: Navigating Directories
+
+theia@theia-bwm3417:/home/project$ cd ~
+theia@theia-bwm3417:~$ cd ..
+theia@theia-bwm3417:/home$ cd /
+theia@theia-bwm3417:/$ cd bin
+theia@theia-bwm3417:/bin$ cd ../home/theia
+theia@theia-bwm3417:~$ cd ../project
+theia@theia-bwm3417:/home/project$ 
+
+
+# Exericse 2: Browsing Directories
+
+theia@theia-bwm3417:/home/project$ ls /
+bin   dev  home  lib32  libx32  mnt  proc  run   srv  tmp  var
+boot  etc  lib   lib64  media   opt  root  sbin  sys  usr
+
+
+theia@theia-bwm3417:/home/project$ ls /bin
+bash          bzmore  dnsdomainname  hostname  mknod          ps          stty        which
+bunzip2       cat     domainname     kill      mktemp         pwd         su          ypdomainname
+bzcat         chgrp   echo           less      more           rbash       sync        zcat
+bzcmp         chmod   egrep          lessecho  mount          readlink    tar         zcmp
+bzdiff        chown   false          lessfile  mountpoint     rm          tempfile    zdiff
+bzegrep       cp      fgrep          lesskey   mv             rmdir       touch       zegrep
+bzexe         dash    findmnt        lesspipe  nano           rnano       true        zfgrep
+bzfgrep       date    fuser          ln        netstat        run-parts   umount      zforce
+bzgrep        dd      grep           login     nisdomainname  sed         uname       zgrep
+bzip2         df      gunzip         ls        pidof          sh          uncompress  zless
+bzip2recover  dir     gzexe          lsblk     ping           sh.distrib  vdir        zmore
+bzless        dmesg   gzip           mkdir     ping6          sleep       wdctl       znew
+
+
+Exercise 3: Updating and Installing Packages
+
+theia@theia-bwm3417:/home/project$ sudo apt update
+
+theia@theia-bwm3417:/home/project$ sudo apt upgrade nano
+
+theia@theia-bwm3417:/home/project$ sudo apt install vim
+
+
+Exercise 4: Creating and Editing Files
+
+theia@theia-bwm3417:/home/project$ nano myprogram.py
+theia@theia-bwm3417:/home/project$ ls
+myprogram.py
+
+theia@theia-bwm3417:/home/project$ python3 myprogram.py
+My name is Beamer!
+
+theia@theia-bwm3417:/home/project$ python3 myprogram.py
+Learning Linux is Fun!
+
+theia@theia-bwm3417:/home/project$ vi done.py
+theia@theia-bwm3417:/home/project$ python3 done.py
+I am done with the Lab!
